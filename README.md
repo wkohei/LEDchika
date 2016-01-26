@@ -8,6 +8,7 @@ Source code below--------------------------------
 ＃define LED_PORT 4
 
 int main (){
+	
 	int i;
 
 	if(wiringPiSetupGpio() == -1)return 1;
